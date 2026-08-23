@@ -1,0 +1,37 @@
+# Unreal Engine binary/source assets tracked via Git LFS.
+# Locking is enabled (lockable) so two people can't silently overwrite
+# the same binary asset without a merge conflict warning.
+
+# Core Unreal binary formats
+*.uasset filter=lfs diff=lfs merge=lfs -text lockable
+*.umap   filter=lfs diff=lfs merge=lfs -text lockable
+
+# Common imported source assets
+*.fbx  filter=lfs diff=lfs merge=lfs -text lockable
+*.png  filter=lfs diff=lfs merge=lfs -text lockable
+*.tga  filter=lfs diff=lfs merge=lfs -text lockable
+*.psd  filter=lfs diff=lfs merge=lfs -text lockable
+*.tif  filter=lfs diff=lfs merge=lfs -text lockable
+*.tiff filter=lfs diff=lfs merge=lfs -text lockable
+*.exr  filter=lfs diff=lfs merge=lfs -text lockable
+*.hdr  filter=lfs diff=lfs merge=lfs -text lockable
+*.wav  filter=lfs diff=lfs merge=lfs -text lockable
+*.mp3  filter=lfs diff=lfs merge=lfs -text lockable
+*.ogg  filter=lfs diff=lfs merge=lfs -text lockable
+*.mp4  filter=lfs diff=lfs merge=lfs -text lockable
+*.mov  filter=lfs diff=lfs merge=lfs -text lockable
+*.wmv  filter=lfs diff=lfs merge=lfs -text lockable
+*.ttf  filter=lfs diff=lfs merge=lfs -text lockable
+*.otf  filter=lfs diff=lfs merge=lfs -text lockable
+
+# Zip/pak/archive assets sometimes bundled with marketplace plugins
+*.zip filter=lfs diff=lfs merge=lfs -text lockable
+*.pak filter=lfs diff=lfs merge=lfs -text lockable
+*.7z  filter=lfs diff=lfs merge=lfs -text lockable
+
+# Keep text/source files as normal git-diffable text
+*.cpp text
+*.h   text
+*.cs  text
+*.ini text
+*.uproject text
