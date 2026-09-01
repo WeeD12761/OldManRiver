@@ -33,3 +33,4 @@ Thumbs.db
 # Plugin intermediate/binaries (if plugins live in-project)
 Plugins/**/Binaries/
 Plugins/**/Intermediate/
+Plugins/IglooUnrealToolkit_v5.7/IglooPreview.zip
