@@ -1,0 +1,46 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "v5.7.0",
+	"FriendlyName": "Igloo Unreal Toolkit",
+	"Description": "Toolkit for streaming to Igloo 360 structures",
+	"Category": "Livestreaming",
+	"CreatedBy": "Igloo Vision",
+	"CreatedByURL": "https://www.igloovision.com/",
+	"DocsURL": "https://360igloo.atlassian.net/wiki/spaces/IGLOOTOOLS/pages/3403350017/Igloo+Unreal+Toolkit+v5.1",
+	"MarketplaceURL": "",
+	"SupportURL": "myadvocate.igloovision.com",
+	"EngineVersion": "5.7.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"SupportedTargetPlatforms": [
+		"Win64"
+	],
+	"Modules": [
+		{
+			"Name": "SpoutPlugin",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "Igloo",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "OSC",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
+		}
+	]
+}

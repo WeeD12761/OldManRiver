@@ -31,5 +31,5 @@ Saved/Crashes/
 Thumbs.db
 
 # Plugin intermediate/binaries (if plugins live in-project)
-Plugins/*/Binaries/
-Plugins/*/Intermediate/
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
